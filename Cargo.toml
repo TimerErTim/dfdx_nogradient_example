@@ -1,0 +1,11 @@
+[package]
+name = "dfdx_nogradient_example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dfdx = { git = "https://github.com/coreylowman/dfdx.git", features = ["nightly", "numpy"] }
+
+rand = "0.8.5"
